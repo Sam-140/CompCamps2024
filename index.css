@@ -6,10 +6,16 @@ main {
     width: 800px;
     margin-left: auto;
     margin-right: auto;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
 }
 
 header {
     text-align: center;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    font-style: normal;
 }
 
 nav {
@@ -18,4 +24,16 @@ nav {
     align-items: center;
     width: 100%;
     justify-content: center;
+}
+
+a {
+    color: darkorange;
+    font-family: "Roboto", sans-serif;
+    font-weight: 800;
+    font-style: normal;
+}
+
+a:hover {
+    color: rgb(255, 183, 0);
+    transform: rotate(-3deg)
 }
